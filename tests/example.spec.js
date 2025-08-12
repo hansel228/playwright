@@ -2,6 +2,8 @@
 import { test, expect } from '@playwright/test';
 import config from './test.config.js';
 
+// some update here
+
 const { baseUrl, expectedTitle, selectors } = config;
 
 test('has title', async ({ page }) => {
